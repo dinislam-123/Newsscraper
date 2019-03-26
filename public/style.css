@@ -1,0 +1,137 @@
+#menubar{
+    width:100%;
+    height:40px;
+    background-color:blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+#h1{
+  font-size: 15px;
+}
+
+li{
+    display: block;
+    float:left;
+    color: white;
+    /* text-align: center; */
+    padding: 5px;
+    text-decoration: none;
+}
+#mongoscraper{
+    font-size: 20px;
+}
+
+#scrapebtn{
+    background-color: red;
+    widows: 140px;
+    height:30px;
+    font-weight: bold;
+    color:white;
+}
+
+body { 
+  /* background:url("scrap.png"); */
+  background-color: grey;
+ }
+#middle-header{
+  font-size: 40px;
+  margin-left : 30%;
+  color: white;
+  position:relative;
+  z-index:1;
+}
+h{
+  margin-left: 35%;
+  color:white;
+}
+#modal-1{
+  margin-left: 20%;
+  margin-right:20%;
+  display: none;
+  width:60%;
+  height:100px;
+  background-color:white;
+}
+#nofarticles{
+  padding:20px;
+  background-color:white;
+  color:black;
+}
+
+.close,.closenote {
+  color: #aaaaaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#okbtn, #savenotebtn, #noteokbtn{
+  background-color:blue;
+}
+
+.save-articles,.art,.sart,.d-art,.s-art{
+  float:right;
+  background-color: purple;
+  color:white;
+  font-size: 20px;
+}
+p{
+  padding-left:2px;
+  font-size: 20px;
+  background-color: blue;
+  color:white;
+
+}
+
+#articles {
+  margin-left: 10%;
+  margin-right:10%;
+  /* display: inline-block; */
+  overflow: auto;
+  width: 80%;
+  height: 500px;
+}
+
+#mymodal-2{
+  margin-left: 20%;
+  margin-right:20%;
+  display:none;
+  width:60%;
+  height:auto;
+  background-color:white;
+}
+
+textarea, input, h1 {
+  display: block;
+  width: 70%;
+  padding-left: 10px;
+  height: 60px;
+  font-size: 15px;
+
+}
+
+#myModal-2{
+  padding-left:10px;
+  padding-top:10px;
+}
+
+#note-content{
+  margin-left: 10px;
+}
+
+#xbutton{
+  background-color:red;
+  float: right;
+  padding-left:0;
+  padding-right:0;
+}
+.textsize{
+  height:20px;
+  /* font-size: 20; */
+} 
